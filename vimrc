@@ -1,10 +1,10 @@
-" Maintainer:	Jameson Nash <vtjnash@gmail.com>
+" Maintainer:   Jameson Nash <vtjnash@gmail.com>
 
 call pathogen#infect()
 
 " source $VIMRUNTIME/defaults.vim
-"" Maintainer:	Bram Moolenaar <Bram@vim.org>
-"" Last change:	2017 Apr 12
+"" Maintainer:  Bram Moolenaar <Bram@vim.org>
+"" Last change: 2017 Apr 12
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -30,6 +30,10 @@ set showcmd         " display incomplete commands
 set wildmenu        " display completion matches in a status line
 set nohlsearch      " yuck - make sure this didn't get enabled
 " set display=truncate " Show @@@ in the last line if it is truncated.
+set undofile
+
+set list            " make whitespace visible
+set listchars=tab:▸\ ,trail:\ ,nbsp:%
 
 " Do incremental searching when it's possible to timeout.
 if has('reltime')
