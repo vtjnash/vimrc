@@ -1,0 +1,24 @@
+[submodule "bundle/InstantRst"]
+	path = bundle/InstantRst
+	url = git@github.com:Rykka/InstantRst.git
+	branch = master
+[submodule "bundle/julia-vim"]
+	path = bundle/julia-vim
+	url = git://github.com/JuliaLang/julia-vim.git
+	branch = master
+[submodule "bundle/riv.vim"]
+	path = bundle/riv.vim
+	url = git@github.com:Rykka/riv.vim.git
+	branch = master
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+	branch = master
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+	branch = master
+[submodule "bundle/vim-instant-markdown"]
+	path = bundle/vim-instant-markdown
+	url = https://github.com/suan/vim-instant-markdown
+	branch = master
