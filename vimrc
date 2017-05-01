@@ -130,3 +130,6 @@ set background=dark
 " set guifont=Source\ Code\ Pro:h12
 set guifont=Monoid\ Regular:h11
 end
+
+" airblade/vim-gitgutter
+set updatetime=500
