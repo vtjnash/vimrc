@@ -129,6 +129,7 @@ if has('gui_running')
 set background=dark
 " set guifont=Source\ Code\ Pro:h12
 set guifont=Monoid\ Regular:h11
+set macligatures
 end
 
 " airblade/vim-gitgutter
