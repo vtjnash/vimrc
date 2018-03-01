@@ -19,6 +19,11 @@ silent! while 0
   set nocompatible
 silent! endwhile
 
+set indentexpr=
+set smartindent
+set autoindent
+" set cindent
+
 set tabstop=4
 set sw=4            " shift-width
 set number          " line numbers, disable with :nonumber
@@ -84,7 +89,8 @@ if has("autocmd")
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
   " Revert with ":filetype off".
-  filetype plugin indent on
+  " filetype plugin indent on
+  filetype plugin on
 
   "" Put these in an autocmd group, so that you can revert them with:
   "" ":augroup vimStartup | au! | augroup END"
