@@ -24,9 +24,13 @@ set autoindent
 " set smartindent
 " set cindent
 
+" Keep visual selection when indenting
+vnoremap < <gv
+vnoremap > >gv
+
 set tabstop=4
 set sw=4            " shift-width
-set number          " line numbers, disable with :nonumber
+set relativenumber  " line numbers, disable with :nonumber
 set expandtab       " spaces, not tabs
 set spell
 set history=200     " keep 200 lines of command line history
