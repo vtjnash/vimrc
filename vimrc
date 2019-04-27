@@ -130,14 +130,16 @@ let g:instant_rst_browser="open"
 let g:instant_rst_forever=1
 let g:riv_web_browser="open"
 
-colorscheme solarized
-set background=dark
 if has('gui_running')
-set background=dark
-" set guifont=Source\ Code\ Pro:h12
-set guifont=Monoid\ Regular:h11
+set guifont=Source\ Code\ Pro:h12
+" set guifont=Monoid\ Regular:h12
 set macligatures
+else
+"let g:solarized_termcolors=256
 end
+let g:solarized_contrast = "high"
+set background=dark
+colorscheme solarized
 
 " airblade/vim-gitgutter
 set updatetime=500
