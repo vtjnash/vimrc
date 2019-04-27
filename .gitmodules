@@ -31,3 +31,6 @@
 [submodule "bundle/vim-bracketed-paste"]
 	path = bundle/vim-bracketed-paste
 	url = https://github.com/ConradIrwin/vim-bracketed-paste
+[submodule "bundle/noctu"]
+	path = bundle/noctu
+	url = git://github.com/noahfrederick/vim-noctu.git

@@ -145,9 +145,10 @@ set macligatures
 else
 "let g:solarized_termcolors=256
 end
-let g:solarized_contrast = "high"
 set background=dark
-colorscheme solarized
+" let g:solarized_contrast = "high"
+" colorscheme solarized
+colorscheme noctu
 
 " airblade/vim-gitgutter
 set updatetime=500
