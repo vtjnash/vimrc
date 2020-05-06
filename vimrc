@@ -30,7 +30,8 @@ vnoremap > >gv
 
 set tabstop=4
 set sw=4            " shift-width
-set relativenumber  " line numbers, disable with :nonumber
+set number          " current line number, disable with :nonumber
+set relativenumber  " line numbers, disable with :norelativenumber
 set expandtab       " spaces, not tabs
 set spell
 set history=200     " keep 200 lines of command line history
@@ -40,6 +41,7 @@ set wildmenu        " display completion matches in a status line
 set nohlsearch      " yuck - make sure this didn't get enabled
 " set display=truncate " Show @@@ in the last line if it is truncated.
 set undofile
+set nojoinspaces    " one space after punctuation
 
 set list            " make whitespace visible
 set listchars=tab:▸\ ,trail:\ ,nbsp:%
@@ -138,17 +140,18 @@ let g:instant_rst_browser="open"
 let g:instant_rst_forever=1
 let g:riv_web_browser="open"
 
+" let g:solarized_contrast = "high"
 if has('gui_running')
 set guifont=Source\ Code\ Pro:h12
 " set guifont=Monoid\ Regular:h12
 set macligatures
+set background=light
+colorscheme solarized
 else
-"let g:solarized_termcolors=256
-end
+" let g:solarized_termcolors=256
 set background=dark
-" let g:solarized_contrast = "high"
-" colorscheme solarized
 colorscheme noctu
+end
 
 " airblade/vim-gitgutter
-set updatetime=500
+" set updatetime=500
