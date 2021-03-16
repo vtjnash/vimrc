@@ -23,6 +23,7 @@ set indentexpr=
 set autoindent
 " set smartindent
 " set cindent
+let g:julia_indent_align_brackets=0
 
 " Keep visual selection when indenting
 vnoremap < <gv
