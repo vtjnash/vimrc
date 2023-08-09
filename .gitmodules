@@ -1,14 +1,14 @@
 [submodule "bundle/InstantRst"]
 	path = bundle/InstantRst
-	url = git@github.com:Rykka/InstantRst.git
+	url = https://github.com/Rykka/InstantRst.git
 	branch = master
 [submodule "bundle/julia-vim"]
 	path = bundle/julia-vim
-	url = git://github.com/JuliaLang/julia-vim.git
+	url = https://github.com/JuliaLang/julia-vim.git
 	branch = master
 [submodule "bundle/riv.vim"]
 	path = bundle/riv.vim
-	url = git@github.com:Rykka/riv.vim.git
+	url = https://github.com/Rykka/riv.vim.git
 	branch = master
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
@@ -16,7 +16,7 @@
 	branch = master
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 	branch = master
 [submodule "bundle/vim-instant-markdown"]
 	path = bundle/vim-instant-markdown
@@ -24,7 +24,7 @@
 	branch = master
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/undotree"]
 	path = bundle/undotree
 	url = https://github.com/mbbill/undotree.git
@@ -33,4 +33,4 @@
 	url = https://github.com/ConradIrwin/vim-bracketed-paste
 [submodule "bundle/noctu"]
 	path = bundle/noctu
-	url = git://github.com/noahfrederick/vim-noctu.git
+	url = https://github.com/noahfrederick/vim-noctu.git

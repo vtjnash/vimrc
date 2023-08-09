@@ -147,12 +147,17 @@ set guifont=Source\ Code\ Pro:h12
 " set guifont=Monoid\ Regular:h12
 set macligatures
 set background=light
-colorscheme solarized
+" colorscheme solarized
 else
 " let g:solarized_termcolors=256
-set background=dark
-colorscheme noctu
+" set background=dark
+" colorscheme noctu
+set background=light
 end
+" if has('nvim')
+" set termguicolors " try to use full colors, instead of 256 pallet
+" end
+colorscheme github
 
 " airblade/vim-gitgutter
 " set updatetime=500
