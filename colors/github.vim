@@ -124,11 +124,11 @@ let s:lib.base05     = { 'gui': '#2d343a', 'cterm': 238 } " lightened from 0
 let s:lib.base1      = { 'gui': '#41484f', 'cterm': 238 } " lightened from 0
 let s:lib.base2      = { 'gui': '#6a737d', 'cterm': 243 } " github comment
 let s:lib.base3      = s:lib.numDarkest
-if has('nvim')
-let s:lib.none       = { 'gui': 'none' }
-else
+" if has('nvim')
+" let s:lib.none       = { 'gui': 'none' }
+" else
 let s:lib.none       = { 'gui': '#ffffff' }
-end
+" end
 
 let s:lib.darktext     = [
       \{ 'gui': '#fafbfc', 'cterm': 255 },
